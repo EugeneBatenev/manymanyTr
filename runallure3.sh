@@ -21,4 +21,9 @@ rm history.jsonl
 
 sleep 2
 
-pnpm allure ${COMMAND_USED} --config=./allurerc.mjs -- pytest tests --alluredir=${ALLURE_RESULTS}
+START=$(date +%s)
+# pnpm allure ${COMMAND_USED} --config=./allurerc.mjs -- pytest tests --alluredir=${ALLURE_RESULTS}
+pnpm allure ${COMMAND_USED} --config=./qg.mjs -- pytest tests/poco --alluredir=${ALLURE_RESULTS}
+END=$(date +%s)
+DURATION=$((END - START))
+echo "Время выполнения: $DURATION секунд"
