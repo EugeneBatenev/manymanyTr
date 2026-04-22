@@ -9,7 +9,7 @@ def _should_fail() -> bool:
         return False
     if mode == "never":
         return True
-    return random.random() < 0.2
+    return random.random() < 0.1
 
 
 @pytest.fixture(autouse=True)
