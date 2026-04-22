@@ -1,3 +1,5 @@
+only applies to tests/poco
+
 TESTS_SUCCESS	behaviour
 always	all tests are passing
 never	all tests are  (FAILED)
