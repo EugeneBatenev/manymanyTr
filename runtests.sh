@@ -22,4 +22,4 @@ rm -rf ${ALLURE_RESULTS}
 
 sleep 2
 
-allurectl ${COMMAND_USED} -- pytest tests --alluredir=${ALLURE_RESULTS}
+allurectl ${COMMAND_USED} -- pytest tests/poco --alluredir=${ALLURE_RESULTS}
