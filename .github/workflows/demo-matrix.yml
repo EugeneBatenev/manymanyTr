@@ -35,7 +35,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        THREADS: [ONE, TWO, THREE, FOUR]
+        THREADS: [ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v4
