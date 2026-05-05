@@ -3,28 +3,28 @@ name: demo-testops-cloud-matrix
 on:
   workflow_dispatch:
     inputs:
+      TESTS_TYPE:
+        description: "Select type of tests"
+        required: true
+        type: choice
+        options:
+          - tests/poco
+          - tests/unit-many
+          - tests/unit
+          - tests/attachments
+          - tests/fixtures
+          - tests
+        default: poco
+      PYTEST_THREADS:
+        description: "How many threads, sire?"
+        required: true
+        default: 1
       ALLURE_JOB_RUN_ID:
         description: "ALLURE_JOB_RUN_ID service parameter. Leave blank."
         required: false
       ALLURE_USERNAME:
         description: "ALLURE_USERNAME service parameter. Leave blank"
         required: false
-      TESTS_TYPE:
-        description: "Select type of tests"
-        required: true
-        type: choice
-        options:
-          - poco
-          - unit-many
-          - unit
-          - attachments
-          - fixtures
-          - ''
-        default: poco
-      PYTEST_THREADS:
-        description: "How many threads, sire?"
-        required: true
-        default: 1
 env:
   ALLURE_RESULTS: "allure-results"
   ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
@@ -56,7 +56,7 @@ jobs:
           if [ "${{ matrix.THREADS }}" != "ONE" ]; then
             sleep 2
           fi
-          allurectl watch -- pytest tests/${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
+          allurectl watch -- pytest ${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
         env:
           ALLURE_RESULTS: "allure-results"
           ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
