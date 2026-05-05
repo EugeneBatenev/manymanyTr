@@ -48,9 +48,9 @@ jobs:
       - name: install and configure allurectl
         uses: allure-framework/setup-allurectl@v1
         with:
-          allure-endpoint: ${{ secrets.ALLURE_ENDPOINT_TESTING }}
-          allure-token: ${{ secrets.ALLURE_TOKEN_TESTING }}
-          allure-project-id: 276
+          allure-endpoint: ${{ secrets.ALLURE_ENDPOINT_DEMO }}
+          allure-token: ${{ secrets.ALLURE_TOKEN_DEMO }}
+          allure-project-id: ${{ secrets.ALLURE_PROJECT_ID_DEMO }}
       - name: Run pytest tests
         run: |
           if [ "${{ matrix.THREADS }}" != "ONE" ]; then
