@@ -19,6 +19,8 @@ export COMMAND_USED=watch
 export ALLURE_LAUNCH_TAGS="pytest, allurectl, ${COMMAND_USED}"
 
 rm -rf ${ALLURE_RESULTS}
+mkdir ${ALLURE_RESULTS}
+
 
 sleep 2
 

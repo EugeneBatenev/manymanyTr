@@ -1,4 +1,4 @@
-name: matrix
+name: demo-testops-cloud-matrix
 
 on:
   workflow_dispatch:
@@ -14,11 +14,13 @@ on:
         required: true
         type: choice
         options:
+          - poco
           - unit-many
           - unit
           - attachments
           - fixtures
-        default: unit-many
+          - ''
+        default: poco
       PYTEST_THREADS:
         description: "How many threads, sire?"
         required: true
