@@ -10,7 +10,14 @@ TESTS_SUCCESS behaviour
 export TESTS_SUCCESS=random; ./runallure3.sh
 export TESTS_SUCCESS=always; ./runallure3.sh
 export TESTS_SUCCESS=broken; ./runallure3.sh
-export TESTS_SUCCESS=always; ./runtests.sh
+export TESTS_SUCCESS=always; ./runtests.sh 276
 export TESTS_SUCCESS=random; ./runtests.sh
 export TESTS_SUCCESS=broken; ./runtests.sh
+
+
+
+
+export TESTS_SUCCESS=always; ./runtests.sh 276
+export TESTS_SUCCESS=never; ./runtests.sh 276
+
 ```

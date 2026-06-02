@@ -76,6 +76,16 @@ export default defineConfig({
     testops: {
       options: { },
     },
+  awesomeAll: {
+      import: "@allurereport/plugin-awesome",
+      options: {
+        reportName: "Allure 3 Report grouped by Feature",
+        singleFile: false,
+        reportLanguage: "en",
+        open: true,
+        groupBy: ["feature"],
+      },
+    },
   },
   variables: { },
   environments: {},
