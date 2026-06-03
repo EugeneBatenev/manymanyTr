@@ -46,7 +46,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest pytest-xdist allure-pytest 
       - name: install and configure allurectl
-        uses: allure-framework/setup-allurectl@v1
+        uses: allure-framework/setup-allurectl@v1.0.3
         with:
           allure-endpoint: ${{ secrets.ALLURE_ENDPOINT_DEMO }}
           allure-token: ${{ secrets.ALLURE_TOKEN_DEMO }}
