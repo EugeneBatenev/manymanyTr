@@ -72,10 +72,6 @@ export default defineConfig({
   categories: {
     rules: comboRules,
   },
-  plugins: {
-    testops: {
-      options: { },
-    },
   awesomeAll: {
       import: "@allurereport/plugin-awesome",
       options: {
