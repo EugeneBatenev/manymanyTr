@@ -80,7 +80,7 @@ export default defineConfig({
         singleFile: false,
         reportLanguage: "en",
         open: true,
-        groupBy: ["feature"],
+        groupBy: ["feature","story"],
       },
     },
   },
