@@ -13,6 +13,6 @@ def _should_fail() -> bool:
     return random.random() < 0.1
 
 
-@pytest.fixture(autouse=True)
-def _layer():
-    allure.dynamic.label("layer", "api")
+# @pytest.fixture(autouse=True)
+# def _layer():
+#     allure.dynamic.label("layer", "api")
