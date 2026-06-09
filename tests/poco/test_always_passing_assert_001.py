@@ -7,7 +7,7 @@ from conftest import _should_fail
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 001 001")
 def test_unit_always_passing_001():
@@ -445,7 +445,7 @@ def test_unit_always_passing_040():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 041 001")
 def test_unit_always_passing_041():
@@ -456,7 +456,7 @@ def test_unit_always_passing_041():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 042 001")
 def test_unit_always_passing_042():
@@ -467,7 +467,7 @@ def test_unit_always_passing_042():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 043 001")
 def test_unit_always_passing_043():
@@ -478,7 +478,7 @@ def test_unit_always_passing_043():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 044 001")
 def test_unit_always_passing_044():
@@ -489,7 +489,7 @@ def test_unit_always_passing_044():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 045 001")
 def test_unit_always_passing_045():
@@ -500,7 +500,7 @@ def test_unit_always_passing_045():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 046 001")
 def test_unit_always_passing_046():
@@ -511,7 +511,7 @@ def test_unit_always_passing_046():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 047 001")
 def test_unit_always_passing_047():
@@ -522,7 +522,7 @@ def test_unit_always_passing_047():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 048 001")
 def test_unit_always_passing_048():
@@ -533,7 +533,7 @@ def test_unit_always_passing_048():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 049 001")
 def test_unit_always_passing_049():
@@ -544,7 +544,7 @@ def test_unit_always_passing_049():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 050 001")
 def test_unit_always_passing_050():
@@ -555,7 +555,7 @@ def test_unit_always_passing_050():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 051 001")
 def test_unit_always_passing_051():
@@ -566,7 +566,7 @@ def test_unit_always_passing_051():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 052 001")
 def test_unit_always_passing_052():
@@ -577,7 +577,7 @@ def test_unit_always_passing_052():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 053 001")
 def test_unit_always_passing_053():
@@ -588,7 +588,7 @@ def test_unit_always_passing_053():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 054 001")
 def test_unit_always_passing_054():
@@ -599,7 +599,7 @@ def test_unit_always_passing_054():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 055 001")
 def test_unit_always_passing_055():
@@ -610,7 +610,7 @@ def test_unit_always_passing_055():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 056 001")
 def test_unit_always_passing_056():
@@ -621,7 +621,7 @@ def test_unit_always_passing_056():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 057 001")
 def test_unit_always_passing_057():
@@ -632,7 +632,7 @@ def test_unit_always_passing_057():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 058 001")
 def test_unit_always_passing_058():
@@ -643,7 +643,7 @@ def test_unit_always_passing_058():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 059 001")
 def test_unit_always_passing_059():
@@ -654,7 +654,7 @@ def test_unit_always_passing_059():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 060 001")
 def test_unit_always_passing_060():
@@ -665,7 +665,7 @@ def test_unit_always_passing_060():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 061 001")
 def test_unit_always_passing_061():
@@ -676,7 +676,7 @@ def test_unit_always_passing_061():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 062 001")
 def test_unit_always_passing_062():
@@ -687,7 +687,7 @@ def test_unit_always_passing_062():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 063 001")
 def test_unit_always_passing_063():
@@ -698,7 +698,7 @@ def test_unit_always_passing_063():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 064 001")
 def test_unit_always_passing_064():
@@ -709,7 +709,7 @@ def test_unit_always_passing_064():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 065 001")
 def test_unit_always_passing_065():
@@ -720,7 +720,7 @@ def test_unit_always_passing_065():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 066 001")
 def test_unit_always_passing_066():
@@ -731,7 +731,7 @@ def test_unit_always_passing_066():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 067 001")
 def test_unit_always_passing_067():
@@ -742,7 +742,7 @@ def test_unit_always_passing_067():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 068 001")
 def test_unit_always_passing_068():
@@ -753,7 +753,7 @@ def test_unit_always_passing_068():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 069 001")
 def test_unit_always_passing_069():
@@ -764,7 +764,7 @@ def test_unit_always_passing_069():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 070 001")
 def test_unit_always_passing_070():
@@ -775,7 +775,7 @@ def test_unit_always_passing_070():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 071 001")
 def test_unit_always_passing_071():
@@ -786,7 +786,7 @@ def test_unit_always_passing_071():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 072 001")
 def test_unit_always_passing_072():
@@ -797,7 +797,7 @@ def test_unit_always_passing_072():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 073 001")
 def test_unit_always_passing_073():
@@ -808,7 +808,7 @@ def test_unit_always_passing_073():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 074 001")
 def test_unit_always_passing_074():
@@ -819,7 +819,7 @@ def test_unit_always_passing_074():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 075 001")
 def test_unit_always_passing_075():
@@ -830,7 +830,7 @@ def test_unit_always_passing_075():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 076 001")
 def test_unit_always_passing_076():
@@ -841,7 +841,7 @@ def test_unit_always_passing_076():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 077 001")
 def test_unit_always_passing_077():
@@ -852,7 +852,7 @@ def test_unit_always_passing_077():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 078 001")
 def test_unit_always_passing_078():
@@ -863,7 +863,7 @@ def test_unit_always_passing_078():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 079 001")
 def test_unit_always_passing_079():
@@ -874,7 +874,7 @@ def test_unit_always_passing_079():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 080 001")
 def test_unit_always_passing_080():
@@ -885,7 +885,7 @@ def test_unit_always_passing_080():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 081 001")
 def test_unit_always_passing_081():
@@ -896,7 +896,7 @@ def test_unit_always_passing_081():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 082 001")
 def test_unit_always_passing_082():
@@ -907,7 +907,7 @@ def test_unit_always_passing_082():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 083 001")
 def test_unit_always_passing_083():
@@ -918,7 +918,7 @@ def test_unit_always_passing_083():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 084 001")
 def test_unit_always_passing_084():
@@ -929,7 +929,7 @@ def test_unit_always_passing_084():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 085 001")
 def test_unit_always_passing_085():
@@ -940,7 +940,7 @@ def test_unit_always_passing_085():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 086 001")
 def test_unit_always_passing_086():
@@ -951,7 +951,7 @@ def test_unit_always_passing_086():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 087 001")
 def test_unit_always_passing_087():
@@ -962,7 +962,7 @@ def test_unit_always_passing_087():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 088 001")
 def test_unit_always_passing_088():
@@ -973,7 +973,7 @@ def test_unit_always_passing_088():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 089 001")
 def test_unit_always_passing_089():
@@ -984,7 +984,7 @@ def test_unit_always_passing_089():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 090 001")
 def test_unit_always_passing_090():
@@ -995,7 +995,7 @@ def test_unit_always_passing_090():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 091 001")
 def test_unit_always_passing_091():
@@ -1006,7 +1006,7 @@ def test_unit_always_passing_091():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 092 001")
 def test_unit_always_passing_092():
@@ -1017,7 +1017,7 @@ def test_unit_always_passing_092():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 093 001")
 def test_unit_always_passing_093():
@@ -1028,7 +1028,7 @@ def test_unit_always_passing_093():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 094 001")
 def test_unit_always_passing_094():
@@ -1039,7 +1039,7 @@ def test_unit_always_passing_094():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 095 001")
 def test_unit_always_passing_095():
@@ -1050,7 +1050,7 @@ def test_unit_always_passing_095():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 096 001")
 def test_unit_always_passing_096():
@@ -1061,7 +1061,7 @@ def test_unit_always_passing_096():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 097 001")
 def test_unit_always_passing_097():
@@ -1072,7 +1072,7 @@ def test_unit_always_passing_097():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 098 001")
 def test_unit_always_passing_098():
@@ -1083,7 +1083,7 @@ def test_unit_always_passing_098():
 
 @allure.feature("test results processing")
 @allure.story("un poco de unit tests")
-@allure.label("layer","unit")
+@allure.label("layer","api")
 @allure.label("os","linux")
 @allure.title("Assert a tuple poco 099 001")
 def test_unit_always_passing_099():
