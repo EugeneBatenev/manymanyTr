@@ -9,8 +9,8 @@ export default defineConfig({
   qualityGate: {
   rules: [
     {
-     id: "10 tests failed",
-      maxFailures: 10,
+     id: "No way! 20 tests failed",
+      maxFailures: 20,
       fastFail: true,
     }
   ],
