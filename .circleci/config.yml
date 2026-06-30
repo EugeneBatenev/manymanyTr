@@ -54,10 +54,6 @@ jobs:
           command: |
             export ALLURE_ENDPOINT="${ALLURE_ENDPOINT:-$ALLURE_ENDPOINT_TESTING}"
             export ALLURE_TOKEN="${ALLURE_TOKEN:-$ALLURE_TOKEN_TESTING}"
-
-            test -n "$ALLURE_ENDPOINT" || (echo "ALLURE_ENDPOINT or ALLURE_ENDPOINT_TESTING is required" && exit 1)
-            test -n "$ALLURE_TOKEN" || (echo "ALLURE_TOKEN or ALLURE_TOKEN_TESTING is required" && exit 1)
-
             if [ "<< parameters.THREADS >>" != "ONE" ]; then
               sleep 2
             fi
