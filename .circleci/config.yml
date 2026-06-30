@@ -1,1 +1,72 @@
+version: 2.1
 
+parameters:
+  TESTS_TYPE:
+    type: enum
+    enum:
+      - tests/poco
+      - tests/unit-many
+      - tests/unit
+      - tests/attachments
+      - tests/fixtures
+      - tests
+    default: tests/poco
+  PYTEST_THREADS:
+    type: string
+    default: "1"
+  ALLURE_JOB_RUN_ID:
+    type: string
+    default: ""
+  ALLURE_USERNAME:
+    type: string
+    default: ""
+
+jobs:
+  pytest-tests:
+    parameters:
+      THREADS:
+        type: enum
+        enum: [ONE, TWO, THREE, FOUR]
+    docker:
+      - image: cimg/python:3.10
+    environment:
+      ALLURE_PROJECT_ID: "276"
+      ALLURE_RESULTS: allure-results
+      ALLURE_JOB_RUN_ID: << pipeline.parameters.ALLURE_JOB_RUN_ID >>
+      ALLURE_USERNAME: << pipeline.parameters.ALLURE_USERNAME >>
+      ALLURE_LAUNCH_TAGS: << pipeline.parameters.TESTS_TYPE >>
+      THREADS: << parameters.THREADS >>
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python -m pip install --upgrade pip
+            pip install pytest pytest-xdist allure-pytest
+      - run:
+          name: Install allurectl
+          command: |
+            curl -fsSL https://github.com/allure-framework/allurectl/releases/latest/download/allurectl_linux_amd64 -o allurectl
+            chmod +x allurectl
+      - run:
+          name: Run pytest tests
+          command: |
+            export ALLURE_ENDPOINT="${ALLURE_ENDPOINT:-$ALLURE_ENDPOINT_TESTING}"
+            export ALLURE_TOKEN="${ALLURE_TOKEN:-$ALLURE_TOKEN_TESTING}"
+
+            test -n "$ALLURE_ENDPOINT" || (echo "ALLURE_ENDPOINT or ALLURE_ENDPOINT_TESTING is required" && exit 1)
+            test -n "$ALLURE_TOKEN" || (echo "ALLURE_TOKEN or ALLURE_TOKEN_TESTING is required" && exit 1)
+
+            if [ "<< parameters.THREADS >>" != "ONE" ]; then
+              sleep 2
+            fi
+
+            ./allurectl watch -- pytest << pipeline.parameters.TESTS_TYPE >> -n << pipeline.parameters.PYTEST_THREADS >>
+
+workflows:
+  matrix:
+    jobs:
+      - pytest-tests:
+          matrix:
+            parameters:
+              THREADS: [ONE, TWO, THREE, FOUR]
