@@ -37,6 +37,7 @@ jobs:
       ALLURE_LAUNCH_TAGS: << pipeline.parameters.TESTS_TYPE >>
       ALLURE_ENDPOINT: https://testing.testops.cloud/
       THREADS: << parameters.THREADS >>
+      TESTS_SUCCESS: always
     steps:
       - checkout
       - run:
