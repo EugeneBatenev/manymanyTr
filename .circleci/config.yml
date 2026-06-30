@@ -30,11 +30,12 @@ jobs:
     docker:
       - image: cimg/python:3.10
     environment:
-      ALLURE_PROJECT_ID: "276"
+      ALLURE_PROJECT_ID: "15129"
       ALLURE_RESULTS: allure-results
       ALLURE_JOB_RUN_ID: << pipeline.parameters.ALLURE_JOB_RUN_ID >>
       ALLURE_USERNAME: << pipeline.parameters.ALLURE_USERNAME >>
       ALLURE_LAUNCH_TAGS: << pipeline.parameters.TESTS_TYPE >>
+      ALLURE_ENDPOINT: https://testing.testops.cloud/
       THREADS: << parameters.THREADS >>
     steps:
       - checkout
